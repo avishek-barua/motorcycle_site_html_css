@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike Gallery</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <header>
+        <a href=""><img src="./assets/logo.png" alt="" class="logo" /></a>
+        <div class="group">
+          <div class="toggle"></div>
+          <ul class="navigation">
+            <li><a href="">Top Features</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Store</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <div class="dayNight">
+            <ion-icon name="sunny" class="active"></ion-icon>
+            <ion-icon name="moon"></ion-icon>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <h2>Ready To <span>Race</span></h2>
+        <a href="" class="btn">Ride Now</a>
+        <img src="./assets/bike.png" alt="" class="bike" />
+      </div>
+
+      <div class="slider">
+        <div class="slides active">
+          <h2><span>Engine</span><br />599 CC</h2>
+          <h2><span>Max Speed</span><br />260 Kmph</h2>
+        </div>
+
+        <div class="slides">
+          <h2><span>Mileage</span><br />14kmpl</h2>
+          <h2><span>0-100 Kmph</span><br />4 Second</h2>
+        </div>
+        <div class="slides">
+          <h2><span>Wheels</span><br />17-Inch Alloy</h2>
+          <h2><span>Tyre Type</span><br />Tubeless</h2>
+        </div>
+      </div>
+
+      <div class="footer">
+        <ul class="sci">
+          <li>
+            <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+          </li>
+          <li>
+            <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+        </ul>
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
